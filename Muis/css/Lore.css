@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'BONY';
+    src: url('BONY.eot');
+    src: url('../fonts/BONY.eot') format('embedded-opentype'),
+        url('../fonts/BONY.woff2') format('woff2'),
+        url('../fonts/BONY.woff') format('woff'),
+        url('../fonts/BONY') format('truetype'),
+        url('../fonts/BONY') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+background-color: #1a1a1a;
+font-family: 'BONY', sans-serif;
+hyphens: auto;
+}
+.tx-1 {
+    margin-top: 2rem;
+    color: #d0ded4;
+    font-size: 2rem;
+    text-shadow: #637169 0 0 0.4rem;
+}
+
+.btn {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+background-color: #2b2e2c;
+color: #d0ded4;
+transition: all 0.2s;
+margin-bottom: 2rem;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #2F4538;
+    filter: brightness(400%);
+}
+a:active,
+a:hover,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+a:hover {
+    color: #acb78e;
+}
+
+@media (max-width: 1000px) {
+.imgc {
+    width: 20rem;
+}
+}
